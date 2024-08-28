@@ -8,10 +8,9 @@ function App() {
 
   return (
     <Layout>
-      
-        <Header />
-        
-      
+      <Header />
+      <button onClick={() => setCount((count) => count + 1)}>11</button>
+      {count}
     </Layout>
   );
 }
